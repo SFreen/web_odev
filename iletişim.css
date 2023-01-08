@@ -1,0 +1,57 @@
+body{
+    background-color: #fff;
+
+}
+.contact-box{
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 9px 0 #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+form{
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top:20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+}
+.btn{
+    background-color: #777;
+    color: white;
+    padding: 0.6rem 0.8rem;
+    border-radius:5px ;
+    border: 1px solid #fff;
+    margin-left: 37px;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    margin-bottom: 2rem;
+    opacity: 0.8;
+}
+.btn:hover{
+    opacity: 1;
+}
+.map-contact{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.map{
+   margin-top: 35rem;
+   margin-bottom: 3rem;
+}
+.map iframe{
+    width: 400px;
+    height: 300px;
+}

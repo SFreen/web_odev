@@ -1,0 +1,32 @@
+.crumb {
+    margin-top: 20px;
+    font-size: 1rem;
+    padding-left: 26px;
+}
+
+.crumb nav ol .breadcrumb-item.active{
+    color: beige;
+}
+
+
+.crumb nav ol li a {
+    text-decoration: none;
+    color: beige;
+    opacity: 0.7;
+}
+
+.crumb nav ol li{
+    color: white;
+    background: #29302c;
+    padding: 8px;
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 23px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 6px;
+}
+
+.crumb nav ol li::before{
+    border-top: 22px solid transparent;
+    border-bottom: 22px solid transparent;
+}
